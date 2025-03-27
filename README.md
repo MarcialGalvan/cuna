@@ -24,17 +24,6 @@
             margin-bottom: 20px;
             white-space: nowrap;
             overflow: hidden;
-            border-right: .15em solid orange; /* El cursor */
-            animation: typing 3.5s steps(40, end),
-                       blink-caret .75s step-end infinite;
-        }
-        @keyframes typing {
-            from { width: 0 }
-            to { width: 100% }
-        }
-        @keyframes blink-caret {
-            from, to { border-color: transparent }
-            50% { border-color: orange; }
         }
         p {
             font-size: 1.2em;
@@ -85,17 +74,17 @@
     </style>
 </head>
 <body>
-    <h1>Tu Nombre</h1>
-    <p>¡Bienvenido a mi página web!</p>
+    <h1>La Civilización Cuna</h1>
+    <p>Enlaces de descarga</p>
     <div class="descarga-links">
-        <a href="#" class="descarga-link">Descarga el Contenido 1</a>
-        <a href="#" class="descarga-link">Descarga el Contenido 2</a>
+        <a href="#" class="descarga-link">Parte 2: tecnología.epub</a>
+        <a href="#" class="descarga-link">Parte 2: tecnología.pdf</a>
     </div>
     <footer>
         <p>© 2024 Tu Nombre. Todos los derechos reservados.</p>
     </footer>
     <script>
-        // No se necesita JavaScript adicional para el estilo de máquina de escribir, está en el CSS.
+        // No se necesita JavaScript adicional.
     </script>
 </body>
 </html>
